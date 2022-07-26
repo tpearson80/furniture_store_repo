@@ -68,6 +68,7 @@ public class CheckOut {
 		// lets user exit the program	
 		} else if (number == 3) {
 			System.out.println("Thank you for visiting our furniture store");
+			sc.close();
 			System.exit(0);
 		} 
 
@@ -90,6 +91,7 @@ public class CheckOut {
 			menu();
 		} else
 			System.out.println("Thank you for visiting our furniture store");
+		sc.close();
 		System.exit(0);
 	}
 
